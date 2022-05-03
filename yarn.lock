@@ -3938,10 +3938,9 @@ ssri@^9.0.0:
   dependencies:
     minipass "^3.1.1"
 
-starknet@^3.10.2:
-  version "3.10.2"
-  resolved "https://registry.npmjs.org/starknet/-/starknet-3.10.2.tgz#0d83ad5499d89637ce5c3b5ae37aa23f03dd6635"
-  integrity sha512-cjgLn/J86W9Fv6n+3ZbrQqyMUPSIv54f9Iwv/4oo02UQ7TixRablnts/FYhUD61TG+8QiZ8rObFi01oG+NlIEg==
+"starknet@git+https://github.com/fawadha1der/starknet.js.git#develop":
+  version "3.10.1"
+  resolved "git+https://github.com/fawadha1der/starknet.js.git#446b8c482d362eb1f503589542fd926145e09596"
   dependencies:
     "@ledgerhq/hw-app-eth" "^6.26.0"
     "@ledgerhq/hw-transport" "^6.24.1"
