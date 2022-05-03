@@ -25,7 +25,7 @@
         "url": "https://github.com/starknet-community-libs/get-starknet/issues"
     },
     "peerDependencies": {
-        "starknet": "^3.10.2"
+        "starknet": "git+https://github.com/fawadha1der/starknet.js.git#develop"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^22.0.0",
